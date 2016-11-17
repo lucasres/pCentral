@@ -2,6 +2,7 @@
 	/*
 	* @param $x file txt
 	* @param $y file txt
+	* @return array Content as coordinates of a central point 
 	*/
 
 	function pCentral($x,$y){
@@ -46,9 +47,10 @@
 	$SomaX = $SomaX/$i;
 	$SomaY = $SomaY/$j;
 	
-	return array('x' => $SomaX,
-				 'y' => $SomaY	
-				);
+	return array(
+		         'x' => $SomaX,
+		 	 'y' => $SomaY	
+		     );
 }
 
 $teste = pCentral(fopen("pontosX.txt","r"),fopen("pontosY.txt","r"));
