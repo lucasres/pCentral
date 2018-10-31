@@ -1,2 +1,2 @@
 # pCentral
-função para retornar ponto central, lendo arquivos contendo pontos x e y
+function to return the midpoint, using as base files content the values
